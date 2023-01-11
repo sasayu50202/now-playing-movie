@@ -1,0 +1,54 @@
+*{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin: 1em 0;
+}
+button{
+    display:block;
+    margin: 0 auto;
+    background: none;
+    color: #ffa260;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: 0.25s;
+}
+button:hover{
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -o.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+ul{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+li{
+    width: 33.3%;
+    display: inline-block;
+    text-align: center;
+}
+p{
+    color: white;
+    font-size: 1em;
+    margin: 1em ;
+    text-align: center;
+}
+
+@media(max-width:1000px){
+    li{
+        width: 50%;
+    }
+}
+@media(max-width:670px){
+    li{
+        width: 100%;
+    }
+}
